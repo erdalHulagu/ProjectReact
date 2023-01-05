@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "digital";
+    src: url("./ds-digi.ttf");
+}
+.clock-container{
+    font-family: digital;
+    color: rgb(74, 228, 81);
+    background-color:rgb(19, 16, 16);
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;  // yatayda calisir
+    align-items: center;   // dikeyde calisir
+    gap: 1rem;
+
+    .time{
+        font-size: 5rem;;
+
+   }
+
+}
